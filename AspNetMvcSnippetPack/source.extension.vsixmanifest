@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="881b70e5-3385-41db-83bb-07231eddadfd" Version="1.0" Language="en-US" Publisher="Will 保哥" />
+        <Identity Id="881b70e5-3385-41db-83bb-07231eddadfd" Version="1.1" Language="en-US" Publisher="Will 保哥" />
         <DisplayName>ASP.NET MVC Snippet Pack</DisplayName>
         <Description xml:space="preserve">A snippet pack to make you more productive working with ASP.NET MVC.</Description>
-        <MoreInfo>https://www.facebook.com/will.fans</MoreInfo>
+        <MoreInfo>https://marketplace.visualstudio.com/items?itemName=vs-publisher-123005.ASPNETMVCSnippetPack</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Preview.png</PreviewImage>
