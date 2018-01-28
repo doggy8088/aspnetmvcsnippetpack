@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+    <Title>mvcpostaction2</Title>
+    <Author>Will 保哥</Author>
+    <Description>Code snippet for "mvcpostaction"</Description>
+    <HelpUrl>
+    </HelpUrl>
+    <Shortcut>mvcpostaction2</Shortcut>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal Editable="true">
+        <ID>ActionName</ID>
+        <ToolTip>The name of the Action method</ToolTip>
+        <Default>ActionName</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>ModelTypeName</ID>
+        <ToolTip>ModelTypeName</ToolTip>
+        <Default>ModelTypeName</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>data</ID>
+        <ToolTip>data</ToolTip>
+        <Default>data</Default>
+        <Function>
+        </Function>
+      </Literal>
+      <Literal Editable="true">
+        <ID>Index</ID>
+        <ToolTip>
+        </ToolTip>
+        <Default>Index</Default>
+        <Function>
+        </Function>
+      </Literal>
+    </Declarations>
+    <Code Language="csharp" Delimiter="$"><![CDATA[[HttpPost]
+[ValidateAntiForgeryToken]
+public ActionResult $ActionName$($ModelTypeName$ $data$)
+{
+    if (ModelState.IsValid)
+    {
+        $end$
+        return RedirectToAction("$Index$");
+    }
+
+    return View($data$);
+}]]></Code>
+  </Snippet>
+</CodeSnippet>

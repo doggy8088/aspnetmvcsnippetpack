@@ -60,6 +60,7 @@
     <Content Include="Snippets\AspNetMvcSnippetPack\mvcaction.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Snippets\AspNetMvcSnippetPack\mvcpostaction-validateantiforgerytoken.snippet" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
