@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="881b70e5-3385-41db-83bb-07231eddadfd" Version="1.3" Language="en-US" Publisher="Will 保哥" />
+        <Identity Id="881b70e5-3385-41db-83bb-07231eddadfd" Version="1.6" Language="en-US" Publisher="Will 保哥" />
         <DisplayName>ASP.NET MVC Snippet Pack</DisplayName>
         <Description xml:space="preserve">A snippet pack to make you more productive working with ASP.NET MVC.</Description>
         <MoreInfo>https://marketplace.visualstudio.com/items?itemName=vs-publisher-123005.ASPNETMVCSnippetPack</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Preview.png</PreviewImage>
-        <Tags>mvc, asp.net mvc, snippets</Tags>
+        <Tags>mvc, asp.net mvc, snippets, code snippets</Tags>
     </Metadata>
     <Installation>
         <!--Microsoft.VisualStudio.Pro includes all SKUs such as Community, Pro, Ultimate and Enterprise-->
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="15.0" />
+        <InstallationTarget Version="[15.0,)" Id="Microsoft.VisualStudio.Pro" />
     </Installation>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets\snippets.pkgdef" />
